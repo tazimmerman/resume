@@ -1,0 +1,50 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+\nopagenumbers{}
+\usepackage[scale=0.80]{geometry}
+
+\name{Troy}{Zimmerman}
+\address{4107 South Indiana Ave}{Chicago, IL 60653}
+\phone[mobile]{(312) 659-1980}
+\email{tazimmerman@me.com}
+\homepage{www.whoistroy.com}
+\social[linkedin]{tazimmerman}
+\social[twitter]{TroyZimmerman}
+\photo[64pt][0pt]{photo.jpg}
+
+\begin{document}
+\makecvtitle
+
+\section{Summary}
+Accomplished software engineer specializing in cross-asset trade management and risk analysis systems with exemplary interpersonal skills. Capable of handling the pressure of a trading environment while delivering robust systems and providing top-notch support.
+
+\section{Experience}
+\cventry{2008--2014}{Senior Software Engineer}{Citadel, LLC}{Chicago, IL}{}{Lead the development of a flexible asset pricing and risk calculation framework in Python which provides historical, end-of-day and real-time prices and risk metrics for a variety of asset classes. Assisted with the development of a resource-aware job scheduling system capable of scheduling thousands of jobs across hundreds of machines. Developed a parallel regression test harness which reduced test run-time from days to hours and improved model delivery schedules. Exposed many of the firm-wide C++ libraries as Python modules by through Boost Python. Member of the Python Steering Committee within the firm that works towards standardizing our Python distribution, increasing code sharing amongst teams, and introducing lectures and other learning experiences by Python experts from around the world. Mentored interns and recent graduate hires through production-quality projects on six-month rotations (known as the "FTAP" program).}
+
+\cventry{2007--2008}{Senior Software Developer}{UBS O'Connor}{Chicago, IL}{}{Coordinated the integration of the straight-through processing infrastructure and price feeds with SunGard's \textit{FRONT ARENA}. Implemented custom reports and user interfaces using \textit{Python}, \textit{ACM}, \textit{ADFL} and \textit{C++}. Developed middle-ware components transforming messages between \textit{AMB} and \textit{Java} message queue brokers in \textit{C}. Integrated proprietary models with the \textit{FRONT ARENA's} own pricing extensions. Educated front and back office users on advanced usage and best practices.}
+
+\cventry{2003--2007}{Software Developer}{UBS O'Connor}{Chicago, IL}{}{Lead the design and development of real-time trade management and reporting system delivered through a tiered architecture. The client was built with \textit{Eclipse RCP} as a collection on reusable plug-ins while the server was implemented in \textit{Java} and utilized \textit{CORBA}, \textit{JDBC}, \textit{JMS} and \textit{RMI}. The open-source FIX engine \textit{QuickFix} was embedded with support for FIX versions 4.0 through 4.4. Users were capable of defining extensions using the \textit{Java Scripting API} and \textit{Pnuts}, a dynamic scripting language based on the \textit{Java} platform. Integration with vendor products such as \textit{FutureTrade} and \textit{TradingScreen} were provided via drop-copy messaging.}
+
+\cventry{2001--2003}{Consultant}{UBS O'Connor}{Chicago, IL}{}{Provided global, around-the-clock support of a proprietary trade management system to front and back office users. Certified new and upgraded existing FIX connections with various trading venues. Performed troubleshooting of automated trading strategies driven by S-Plus analytics. Developed an IOI aggregation, reporting and signaling tool. Technologies included \textit{Perl}, \textit{Java}, \textit{C++}, and the \textit{Qt} toolkit.}
+
+\cventry{2000--2001}{Consultant}{Lucent Technologies -- Public Safety Systems}{Lisle, IL}{}{Assisted with the migration of the 9-11 public safety access point infrastructure from Xenix to Red Hat Linux. Responsible for updating comprehensive technical documentation, maintenance of the development environments, and extensive regression testing. Technologies included \textit{C}, \textit{Perl} and \LaTeX{}.}
+
+\section{Technological Expertise}
+\begin{cvcolumns}
+  \cvcolumn{Languages}{\begin{itemize} \item Python \item C, C++ \item Bash, Ksh \item HTML, JavaScript, CSS \end{itemize}}
+  \cvcolumn{Tools}{\begin{itemize} \item cvs, svn, git \item gcc, gdb, valgrind \item Tibco Rendezvous, Ice Storm \item STL, Boost, NSPR \item Traditional RDMS, MongoDB, HDF5 \item Numpy, Scipy, Numexpr, Pandas \end{itemize}}
+\end{cvcolumns}
+
+\section{Financial Knowledge}
+\begin{cvcolumns}
+  \cvcolumn{Asset Classes}{\begin{itemize} \item Equity Derivatives \item Credit Derivatives \item Fixed Income Derivatives \end{itemize}}
+  \cvcolumn{Trading Strategies}{\begin{itemize} \item Convertible Arbitrage \item Relative Value Bond Basis \item Index Arbitrage \end{itemize}}
+\end{cvcolumns}
+
+\section{Hobbies \& Interests}
+\cvlistitem{Health and wellness enthusiast}
+\cvlistitem{Animal rescue volunteer}
+\cvlistitem{Urban farming and sustainable living}
+
+\end{document}
